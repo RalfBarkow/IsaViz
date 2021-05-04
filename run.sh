@@ -1,9 +1,9 @@
 #!/bin/sh
 
-JAVA_HOME=/usr
-ISAVIZ_HOME=/usr/local/IsaViz
+JAVA_HOME=/Users/rgb/.jenv/shims/
+ISAVIZ_HOME=/Users/rgb/Projects/Java/IsaViz
 
-$JAVA_HOME/bin/java -classpath "\
+$JAVA_HOME/java -classpath "\
 $ISAVIZ_HOME/lib/isaviz.jar:\
 $ISAVIZ_HOME/lib/zvtm.jar:\
 $ISAVIZ_HOME/lib/xercesImpl.jar:\
